@@ -32,3 +32,9 @@ $ chmod ug+x .git/hooks/*
 ## Use compatible NodeJS version using Node Version Manager
 
 $ nvm use
+
+## Using Docker
+```
+docker build -t bahnar_nmt_fe_v2:latest .
+docker run -it -p 10009:3000 -d bahnar_nmt_fe_v2:latest -n bahnar_nmt_fe_v2
+```
